@@ -1,0 +1,113 @@
+.main-container
+{
+    width: 1200px;
+    margin: 0px auto;
+}
+.main-line
+{
+    display: flex;
+    justify-content: space-between;
+}
+.main-left
+{
+    width: 50%;
+    height: 550px;
+}
+.main-right
+{
+    width: 50%;
+    height: 550px;
+}
+.main-feature
+{
+    background-color: #ECECEC;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+.main-feature-title
+{
+    width: 100%;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.main-content-list
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    background-color: #FFFFFF;
+}
+.main-content-item
+{
+    padding: 10px 0px;
+    width: 300px;
+}
+.main-content-image
+{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0px auto;
+}
+.main-content-content
+{
+    padding-top: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.main-right-4
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #F0F0F0;
+    padding: 30px;
+}
+.main-contact-title
+{
+    width: 100%;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-content-desc
+{
+    width: 100%;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.main-contact-line
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.main-contact-input
+{
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    font-size: 24px;
+    border: none;
+}
+.main-contact-area
+{
+    width: 100%;
+    padding-left: 12px;
+    font-size: 24px;
+    border: none;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.main-contact-button
+{
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+}
