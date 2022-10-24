@@ -1,0 +1,30 @@
+.nav {
+	position: relative;
+	width: 100%;
+	height: 110px;
+	background-color: #FFF;
+}
+
+.nav .header-content {
+	width: 1200px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.nav .header-content img {
+	height: 50px;
+}
+
+.nav .header-content .container {
+	display: flex;
+}
+
+.nav .header-content .container a {
+	margin: 0 10px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}

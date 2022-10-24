@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.shop {
+	position: relative;
+	width: 1200px;
+	margin: auto;
+	display: flex;
+}
+
+.shop .leftMenu {
+	width: 180px;
+	margin-right: 20px;
+	
+}
+.shop .leftMenu .listMeun {
+	border: 1px solid #777;
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+
+.shop .leftMenu P {
+	line-height: 35px;
+}
+
+.shop .shopMain {
+	border: 1px solid #777;
+	flex: 1;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+
+.shop .shopMain  .info {
+	display: flex;
+}
+
+.shop .shopMain  .info .left {
+	width: 45%;
+}
+
+.shop .shopMain  .info .left .top {
+	width: 100%;
+}
+
+.shop .shopMain  .info .left .top img {
+	width: 100%;
+}
+
+.shop .shopMain  .info .left .imgs {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.shop .shopMain  .info .left .imgs img {
+	width: 31%;
+	margin-top: 10px;
+}
+
+.shop .shopMain  .info .rig {
+	flex: 1;
+	margin-left: 20px;
+}
+
+.shop .shopMain  .info .rig p {
+	margin-top: 30px;
+	font-size: 14px;
+	color: #888;
+	line-height: 25px;
+}
+
+.shop .shopMain  .info .rig a {
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	margin-top: 80px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(60,81,102);
+	color:  #FFF;
+}

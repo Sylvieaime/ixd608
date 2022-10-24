@@ -1,0 +1,67 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.shopping {
+	position: relative;
+	width: 1200px;
+	margin: auto;
+}
+
+.shopping h5 {
+	text-align: center;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.shopping table {
+	border: 1px solid #888;
+	width: 100%;
+	border-collapse:collapse;
+}
+.shopping table thead tr th{
+	border-bottom: 1px solid #888;
+	text-align: left;
+}
+.shopping table thead tr th {
+	height: 60px;
+}
+
+.shopping table tbody tr td img {
+	width: 250px;
+	height: 180px;
+}
+.shopping table tbody tr .img {
+	padding: 30px 40px;
+	box-sizing: border-box;
+}
+
+.shopping table tbody tr .add {
+	margin-top: 40px;
+}
+
+.shopping table tbody tr .addInfo {
+	vertical-align: top;
+}
+
+.shopping table tbody tr .addInfo  h2{
+	margin-top: 30px;
+}
+.shopping table tbody tr .addInfo p {
+	line-height: 30px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.shopping table tbody tr td .span {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	cursor: pointer;
+}
