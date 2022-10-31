@@ -1,0 +1,159 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px; 
+    padding: 0px; 
+    padding-bottom: 65px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 1200px) 
+{
+    .menu-pc
+    {
+        display: none !important;
+    }
+    .artwork-page 
+    {
+        width: 100%;
+    }
+    .artwork-title
+    {
+        font-size: 24px;
+        height: 60px;
+        line-height: 60px;
+        font-weight: bold;
+        background-color: #febc9a;
+        text-align: center;
+    }
+    .artwork-content
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #e3eef0;
+        padding: 0px 12px;
+        box-sizing: border-box;
+    }
+    .common-menu
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .common-menu-name
+    {
+        height: 40px;
+        line-height: 40px;
+    }
+    .artwork-part1
+    {
+        width: 100%;
+    }
+    .artwork-part2
+    {
+        width: 100%;
+    }
+    .artwork-image
+    {
+        display: block; 
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .artwork-text
+    {
+        font-size: 16px; 
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (min-width: 1201px) 
+{
+    .menu-phone
+    {
+        display: none !important;
+    }
+    .artwork-page 
+    {
+        width: 1200px; 
+        margin: 0px auto; 
+        background-color: #e3eef0;
+    }
+    .artwork-title
+    {
+        font-size: 48px;
+        height: 100px;
+        line-height: 100px;
+        font-weight: bold;
+        background-color: #febc9a;
+        text-align: center;
+    }
+    .artwork-content
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #e3eef0;
+    }
+    .common-menu
+    {
+        width: 25%;
+        background-color: #f1e4d3;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    .common-menu-name
+    {
+        font-size: 30px; 
+        line-height: 70px;
+        display: block;
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .artwork-part1
+    {
+        width: 36.5%;
+        padding: 15px;
+    }
+    .artwork-part2
+    {
+        width: 36.5%;
+        padding: 15px;
+    }
+    .artwork-image
+    {
+        display: block; 
+        width: 100%; 
+        margin-bottom: 30px;
+    }
+    .artwork-text
+    {
+        font-size: 18px; 
+        line-height: 42px;
+    }
+}
+
+.copyright
+{
+    position: fixed; 
+    left: 0px; 
+    bottom: 0px;
+    width: 100%; 
+    height: 50px; 
+    line-height: 50px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    z-index: 9;
+    background-color: #000000;
+}
+
+.animation-hide
+{
+    display: none;
+}

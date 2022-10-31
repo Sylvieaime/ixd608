@@ -1,0 +1,181 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px; 
+    padding: 0px; 
+    padding-bottom: 65px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 1200px) 
+{
+    .menu-pc
+    {
+        display: none !important;
+    }
+    .vase-page 
+    {
+        width: 100%;
+        background-image: url(../img/vase-bg.png);
+        background-size: 100% 100%;
+    }
+    .vase-title
+    {
+        font-size: 24px;
+        height: 60px;
+        line-height: 60px;
+        font-weight: bold;
+        background-color: #febc9a;
+        text-align: center;
+    }
+    .vase-content
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        padding: 0px 12px;
+        box-sizing: border-box;
+    }
+    .common-menu
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .common-menu-name
+    {
+        height: 40px;
+        line-height: 40px;
+    }
+    .vase-content
+    {
+        width: 100%;
+    }
+    .vase-detail
+    {
+        width: 100%;
+        padding: 0px;
+    }
+    .vase-image
+    {
+        display: block; 
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .vase-text
+    {
+        font-size: 16px; 
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+    .zoomed-image
+    {
+        width: 100% !important;
+        height: 450px !important;
+    }
+}
+
+@media screen and (min-width: 1201px) 
+{
+    .menu-phone
+    {
+        display: none !important;
+    }
+    .vase-page 
+    {
+        width: 1200px; 
+        margin: 0px auto; 
+        background-color: #e3eef0;
+    }
+    .vase-title
+    {
+        font-size: 48px;
+        height: 100px;
+        line-height: 100px;
+        font-weight: bold;
+        background-color: #febc9a;
+        text-align: center;
+    }
+    .vase-content
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #e3eef0;
+    }
+    .common-menu
+    {
+        width: 25%;
+        background-color: #f1e4d3;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    .common-menu-name
+    {
+        font-size: 30px; 
+        line-height: 70px;
+        display: block;
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .vase-detail
+    {
+        width: 75%;
+        padding: 50px 0px;
+        background-image: url(../img/vase-bg.png);
+        background-size: 100% 100%;
+    }
+    .vase-line
+    {
+        display: flex !important;
+        justify-content: center;
+    }
+    .vase-image-container
+    {
+        width: 40%;
+        height: 450px;
+        margin-right: 20px;
+    }
+    .vase-image
+    {
+        width: 100%;
+        height: 450px;
+    }
+    .vase-text
+    {
+        width: 70%;
+        margin: 30px auto 0px auto;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .zoomed-image
+    {
+        width: 40% !important;
+        height: 450px !important;
+    }
+}
+
+.copyright
+{
+    position: fixed; 
+    left: 0px; 
+    bottom: 0px;
+    width: 100%; 
+    height: 50px; 
+    line-height: 50px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    z-index: 9;
+    background-color: #000000;
+}
+
+.animation-hide
+{
+    display: none;
+}

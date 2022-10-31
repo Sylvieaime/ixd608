@@ -1,0 +1,86 @@
+.main-container
+{
+    width: 1200px;
+    margin: 0px auto;
+}
+.main-line
+{
+    display: flex;
+    justify-content: space-between;
+}
+.main-left
+{
+    width: 50%;
+    height: 550px;
+}
+.main-right
+{
+    width: 50%;
+    height: 550px;
+}
+.main-right-4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F0F0F0;
+    padding: 30px;
+}
+.main-contact-title
+{
+    width: 100%;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-content-desc
+{
+    width: 100%;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.main-contact-line
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.main-contact-input
+{
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    font-size: 24px;
+    border: none;
+}
+.main-contact-area
+{
+    width: 100%;
+    padding-left: 12px;
+    font-size: 24px;
+    border: none;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.main-contact-button-submit
+{
+    display: block;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.main-contact-button-cancel
+{
+    display: block;
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+}
