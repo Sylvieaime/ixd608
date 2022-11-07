@@ -3,6 +3,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://use.typekit.net/dgx7nvl.css" />
 
+    <link rel="stylesheet" type="text/css" href="../css/grid.css">
+    <link rel="stylesheet" type="text/css" href="../css/midter.css">
+
 <!--     <base href="http://karenchangart.com/aau/ixd608/chang.karen/">
 
     <link rel="stylesheet" href="lib/css/gridsystem.css" />
