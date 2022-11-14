@@ -26,32 +26,35 @@
 			</figure>
 
 			<div class="content">
-				<h1><?= $product->name ?></h1>
-				<h3>&dollar;<?= $product->price ?></h3>
-				<p><br><?= $product->description ?></p>
+				<form class="content" method="post" action="cart_actions.php?action=add-to-cart">
+					<input type="hidden" value="<?= $product->id ?>" name="product-id">
+					<h1><?= $product->name ?></h1>
+					<h3>&dollar;<?= $product->price ?></h3>
+					<p><br><?= $product->description ?></p>
 
-				<div class="form-control">
-					<p>Quantity:</p>
-					<div class="form-select">
-						<select>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>10</option>
-						</select>
+					<div class="form-control">
+						<p>Quantity:</p>
+						<div class="form-select">
+							<select id="product-amount" name="product-amount">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+						</div>
 					</div>
-				</div>
 
-				<div class="form-control">
-					<button type="button" class="form-button" id="addtocart">Add to Cart</button>
-				</div>
-
+					<div class="form-control">
+						<!-- <button type="button" class="form-button" id="addtocart">Add to Cart</button> -->
+						<input type="submit" class="form-button" id="addtocart" value="Add To Cart">
+					</div>
+				</form>
 			</div>
 		</div>
 
