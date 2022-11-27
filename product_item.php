@@ -54,6 +54,15 @@
 						<!-- <button type="button" class="form-button" id="addtocart">Add to Cart</button> -->
 						<input type="submit" class="form-button" id="addtocart" value="Add To Cart">
 					</div>
+
+					<!-- <div class="recommeneded_container">
+					<h2>Recommended Products</h2>
+					<div class="grid gap col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<?php 
+								recommendedSimilar($product->category,$product->id);
+							?>
+					</div> -->
+				</div>
 				</form>
 			</div>
 		</div>

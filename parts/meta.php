@@ -5,6 +5,8 @@
 
     <link rel="stylesheet" type="text/css" href="./css/grid.css">
     <link rel="stylesheet" type="text/css" href="./css/midter.css">
+    <link rel="stylesheet" type="text/css" href="./cssStyle/index.css">
+	<link rel="stylesheet" type="text/css" href="./cssStyle/nav.css">
 
 <!--     <base href="http://karenchangart.com/aau/ixd608/chang.karen/">
 

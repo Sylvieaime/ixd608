@@ -545,6 +545,7 @@ body {
     outline: 0;
 }
 
+
 .form-input {
     padding: 0.5em 0.5em;
     color: var(--color-neutral-dark);
@@ -572,6 +573,17 @@ body {
     text-align: center;
     padding: 0.5em;
     margin-top: 10px;
+}
+
+.filter {
+    margin-top: 0 !important;
+    padding: 8px 18px !important;
+    box-sizing: border-box;
+    
+}
+
+.filter-button {
+    margin-right: 10px;
 }
 
 .form-button:hover {

@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="./cssStyle/index.css">
-	<link rel="stylesheet" type="text/css" href="./cssStyle/nav.css">
-</head>
-<body>
-	<div class="nav">
+<div class="nav">
 		<div class="header-content">
 			<img src="./images/logo.png">
 			<div class="urls">
@@ -29,5 +19,3 @@
 			</div>
 		</div>
 	</div>
-</body>
-</html>
