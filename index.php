@@ -1,8 +1,5 @@
 
-<?php
-include('./comp/nav.php')
 
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,10 +7,15 @@ include('./comp/nav.php')
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./cssStyle/index.css" />
+    <link rel="stylesheet" href="./cssStyle/nav.css" />
     <script src="./js/index.js"></script>
 </head>
 <body>
+	<?php
+include('./comp/nav.php')
+
+?>
 	<div class="main">
 		<div class="main_content">
 			<div class="tab1">

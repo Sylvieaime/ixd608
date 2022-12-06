@@ -1,5 +1,7 @@
 <?php
+
 session_start();
+
 
 function print_p($v) {
 	echo "<pre>", print_r($v), "</pre>";
@@ -15,7 +17,8 @@ function file_update_json($filename,$file_contents){
 	 file_put_contents($filename, $data);
 }
 
-include_once "auth.php";
+
+	include_once "auth.php";
 	function makeConn(){
 		$conn = new mysqli(...MYSQLIAuth());
 		if($conn->connect_error) die($conn->connect_error);
@@ -23,17 +26,26 @@ include_once "auth.php";
 		return $conn;
 	}
 
-function makeQuery($conn,$qry){
-	$result = $conn->query($qry);
-	if($conn->errno) die($conn->error);
-	$a = [];
-	while($row = $result->fetch_object()){
-		$a[] = $row;
+	function makePDOConn(){
+		try {
+			$conn = new PDO(...PDOAuth());
+		} catch(PDOException $e){
+			die($e->getMessage());
+		}
+		return $conn;
 	}
-	return $a;
-}
 
-// CART FUNCTIONS
+	function makeQuery($conn,$qry){
+		$result = $conn->query($qry);
+		if($conn->errno) die($conn->error);
+		$a = [];
+		while($row = $result->fetch_object()){
+			$a[] = $row;
+		}
+		return $a;
+	}
+
+	// CART FUNCTIONS
 
 	function array_find($array,$fn){
 
@@ -45,6 +57,11 @@ function makeQuery($conn,$qry){
 	function getCart(){
 		return isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 	}
+
+	function getPromo(){
+		return isset($_SESSION['promo']) ? $_SESSION['promo'] : false;
+	}
+
 
 	function addToCart($id,$amount){
 		// $_SESSION['cart']=[];
@@ -68,7 +85,9 @@ function makeQuery($conn,$qry){
 	}
 
 
-	function resetCart() { $_SESSION['cart'] = []; }
+	function resetCart() { $_SESSION['cart'] = [];
+							$_SESSION['promo'] = false;
+						 }
 
 	function makeCartBadge(){
 		$cart = getCart();
