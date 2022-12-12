@@ -52,24 +52,27 @@ try {
 				(
 					`name`,
 					`price`,
-					`quantity`,
 					`description`,
 					`category`,
 					`images`,
 					`date_create`,
-					`date_modify`
+					`date_modify`,
+					`thumbnail`	
 				)
-				VALUES (?,?,?,?,?,?,NOW(),NOW())
+				VALUES (?,?,?,?,?,NOW(),NOW(),?)
 				");
+
+
 			$statement->execute([
 				$_POST['product-name'],
 				$_POST['product-price'],
-				$_POST['product-quantity'],
 				$_POST['product-description'],
 				$_POST['product-category'],
+				$_POST['product-image'],
 				$_POST['product-image']
 			]);
 			$id = $conn->lastInsertId();
+
 			header("location:{$_SERVER['PHP_SELF']}?id=$id");
 			break;
 		case "delete":
